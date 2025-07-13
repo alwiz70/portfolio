@@ -850,6 +850,17 @@ body {
   box-shadow: 0 0 25px #00e0ff;
 }
 
+.site-footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  border-top: 1px solid #222;
+  margin-top: 50px;
+}
+
+
 
  
  
