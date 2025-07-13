@@ -862,7 +862,8 @@ body {
   text-align: center;
   padding: 8px 0;              /* Thin height */
   font-size: 14px;
-  border-top: 1px solid #222;  /* Optional top line */
+  border-top: 1px solid #222;
+  padding-bottom: 0px;  /* Optional top line */
 }
 
 
