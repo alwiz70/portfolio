@@ -24,7 +24,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: black;
+  background-color:#4a4a8a;
   padding: 20px 50px;
   z-index: 1000;
   display: flex;
