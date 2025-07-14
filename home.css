@@ -796,7 +796,7 @@ a {
 /* Tablet Portrait (768px - 991px) */
 @media (max-width: 991px) {
   .navbar {
-    padding: 15px 30px;
+    padding: 10px 20px;
   }
   
   .hamburger {
@@ -807,13 +807,13 @@ a {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 300px;
+    width: 250px;
     height: 100vh;
     background-color: #1a1a33;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
     transition: right 0.3s ease;
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
   }
@@ -823,8 +823,8 @@ a {
   }
   
   .nav-links a {
-    font-size: 18px;
-    padding: 15px 20px;
+    font-size: 16px;
+    padding: 12px 18px;
     text-align: center;
     border-bottom: none;
     border-left: 3px solid transparent;
@@ -841,7 +841,7 @@ a {
   .hero {
     flex-direction: column;
     text-align: center;
-    padding: 140px 4% 60px;
+    padding: 120px 4% 60px;
     gap: 40px;
   }
   
@@ -891,21 +891,31 @@ a {
 /* Mobile Landscape (576px - 767px) */
 @media (max-width: 767px) {
   .navbar {
-    padding: 15px 20px;
+    padding: 8px 15px;
   }
   
   .logo {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  
+  .hamburger {
+    padding: 3px;
+  }
+  
+  .hamburger span {
+    width: 22px;
+    height: 2px;
+    margin: 2px 0;
   }
   
   .nav-links {
-    width: 280px;
-    gap: 25px;
+    width: 220px;
+    gap: 20px;
   }
   
   .nav-links a {
-    font-size: 16px;
-    padding: 12px 15px;
+    font-size: 15px;
+    padding: 10px 15px;
   }
   
   .section-title {
@@ -913,7 +923,7 @@ a {
   }
   
   .hero {
-    padding: 120px 3% 50px;
+    padding: 100px 3% 50px;
   }
   
   .hero-text h1 {
@@ -977,25 +987,35 @@ a {
 /* Mobile Portrait (up to 575px) */
 @media (max-width: 575px) {
   .navbar {
-    padding: 12px 20px;
+    padding: 6px 12px;
   }
   
   .logo {
-    font-size: 22px;
+    font-size: 18px;
+  }
+  
+  .hamburger {
+    padding: 2px;
+  }
+  
+  .hamburger span {
+    width: 20px;
+    height: 2px;
+    margin: 2px 0;
   }
   
   .nav-links {
-    width: 250px;
-    gap: 20px;
+    width: 200px;
+    gap: 15px;
   }
   
   .nav-links a {
-    font-size: 15px;
-    padding: 10px 15px;
+    font-size: 14px;
+    padding: 8px 12px;
   }
   
   .hero {
-    padding: 100px 4% 40px;
+    padding: 80px 4% 40px;
     min-height: auto;
   }
   
@@ -1133,6 +1153,30 @@ a {
 
 /* Extra Small Mobile (up to 375px) */
 @media (max-width: 375px) {
+  .navbar {
+    padding: 5px 10px;
+  }
+  
+  .logo {
+    font-size: 16px;
+  }
+  
+  .hamburger span {
+    width: 18px;
+    height: 2px;
+    margin: 1px 0;
+  }
+  
+  .nav-links {
+    width: 180px;
+    gap: 12px;
+  }
+  
+  .nav-links a {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+  
   .hero-text h1 {
     font-size: 24px;
   }
