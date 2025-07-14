@@ -867,6 +867,125 @@ body {
 }
 
 
+
+/* ===== Responsive Styles ===== */
+
+@media (max-width: 992px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 85%;
+  }
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 30px;
+  }
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .nav-links li {
+    width: 100%;
+  }
+  .nav-links a {
+    display: block;
+    width: 100%;
+  }
+
+  /* Hero Section */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 120px 20px;
+  }
+  .hero-text h1 {
+    font-size: 36px;
+  }
+  .job-title {
+    font-size: 20px;
+  }
+  .hero-image img {
+    width: 180px;
+    margin-top: 30px;
+  }
+
+  /* About Section */
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-content, .skills {
+    width: 100%;
+  }
+
+  /* Timeline Section */
+  .timeline-column {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .timeline-item p {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  /* Projects Section */
+  .project-card {
+    padding: 15px;
+  }
+
+  /* Extra-Curricular Section */
+  .extra-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+
+  /* Testimonials Section */
+  .testimonial-card {
+    width: 90%;
+  }
+
+  /* Contact Section */
+  .contact-container {
+    flex-direction: column;
+  }
+  .form-left, .form-right {
+    width: 100%;
+  }
+  .form-right button {
+    width: 100%;
+  }
+
+  /* Footer */
+  .site-footer {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 80%;
+  }
+
+  /* Modals */
+  .modal-content {
+    width: 95%;
+    padding: 15px;
+  }
+}
+
+
  
  
 
