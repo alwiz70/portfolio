@@ -855,12 +855,12 @@ body {
 }
 
 .site-footer {
-  margin-top: auto;
+  margin: 0px -10px 0px -10px;
   width: 100%;
   background-color: #111;      /* Dark background */
   color: #999;                 /* Soft grey text */
   text-align: center;
-  padding: 8px 0;              /* Thin height */
+  padding: 1px;              /* Thin height */
   font-size: 14px;
   border-top: 1px solid #222;
   padding-bottom: 0px;  /* Optional top line */
