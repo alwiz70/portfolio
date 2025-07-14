@@ -33,8 +33,8 @@ const projects = [
     link: "#"
   },
   {
-    title: "Quiz Application",
-    description: "An interactive quiz web app with timer, multiple categories, and score tracking. Developed using JavaScript and APIs.",
+    title: "Group Project - Quiz Application",
+    description: "A comprehensive second-year university group project where I served as the project tester. This interactive quiz web application features multiple categories, timer functionality, score tracking, and user authentication. I was responsible for quality assurance, bug testing, user experience testing, and ensuring the application met all project requirements. Developed collaboratively using JavaScript, HTML, CSS, and API integration.",
     link: "#"
   },
   {
