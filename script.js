@@ -120,6 +120,38 @@ window.addEventListener("scroll", () => {
   });
 });
 
+// Mobile Menu Toggle
+function toggleMenu() {
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  
+  hamburger.classList.toggle('active');
+  navLinks.classList.toggle('active');
+}
+
+// Close mobile menu when clicking on a link
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => {
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('active');
+  });
+});
+
+// Close mobile menu when clicking outside
+document.addEventListener('click', (e) => {
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  const navbar = document.querySelector('.navbar');
+  
+  if (!navbar.contains(e.target)) {
+    hamburger.classList.remove('active');
+    navLinks.classList.remove('active');
+  }
+});
+
 // Image Modal Popup for Testimonials
 document.addEventListener("DOMContentLoaded", function () {
   const modal = document.getElementById("imgModal");
