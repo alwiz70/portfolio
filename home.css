@@ -839,7 +839,7 @@ a {
   }
   
   .hero {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
     padding: 120px 4% 60px;
     gap: 40px;
@@ -923,6 +923,7 @@ a {
   }
   
   .hero {
+    flex-direction: column-reverse;
     padding: 100px 3% 50px;
   }
   
@@ -1015,6 +1016,7 @@ a {
   }
   
   .hero {
+    flex-direction: column-reverse;
     padding: 80px 4% 40px;
     min-height: auto;
   }
@@ -1177,6 +1179,10 @@ a {
     padding: 6px 10px;
   }
   
+ .hero {
+   flex-direction: column-reverse;
+ }
+
   .hero-text h1 {
     font-size: 24px;
   }

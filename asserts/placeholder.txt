@@ -1,0 +1,6 @@
+This folder contains the portfolio images and assets.
+Please add your images back to this folder:
+- 1.jpg (profile picture)
+- 2.jpg, 3.jpg, 4.jpg (cricket images)
+- 5.jpg, 6.jpg, 7.jpg (testimonial images)
+- cv.pdf (your CV file)
