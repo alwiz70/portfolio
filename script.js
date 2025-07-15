@@ -1,7 +1,7 @@
 const roles = [
-  { title: "Frontend Developer", image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" },
-  { title: "Youtuber", image: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400" },
-  { title: "Traveler", image: "https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=400" }
+  { title: "Frontend Developer", image: "assert/1.jpg" },
+  { title: "Youtuber", image: "assert/1.jpg" },
+  { title: "Traveler", image: "assert/1.jpg" }
 ];
 
 let roleIndex = 0;
@@ -61,9 +61,9 @@ const activities = [
     title: "Cricket",
     description: "I have played cricket passionately since Under-13 to Under-17. At university, I proudly represented in the Battle of Coders match as a wicket-keeper, showcasing teamwork, focus, and sportsmanship.",
     images: [
-      "https://images.pexels.com/photos/1661950/pexels-photo-1661950.jpeg?auto=compress&cs=tinysrgb&w=400",
-      "https://images.pexels.com/photos/1661951/pexels-photo-1661951.jpeg?auto=compress&cs=tinysrgb&w=400",
-      "https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg?auto=compress&cs=tinysrgb&w=400"
+      "assert/2.jpg",
+      "assert/3.jpg",
+      "assert/4.jpg"
     ]
   },
   {
