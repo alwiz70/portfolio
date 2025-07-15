@@ -1,7 +1,7 @@
 const roles = [
-  { title: "Frontend Developer", image: "assert/1.jpg" },
-  { title: "Youtuber", image: "assert/1.jpg" },
-  { title: "Traveler", image: "assert/1.jpg" }
+  { title: "Frontend Developer", image: "asserts/1.jpg" },
+  { title: "Youtuber", image: "asserts/1.jpg" },
+  { title: "Traveler", image: "asserts/1.jpg" }
 ];
 
 let roleIndex = 0;
@@ -61,9 +61,9 @@ const activities = [
     title: "Cricket",
     description: "I have played cricket passionately since Under-13 to Under-17. At university, I proudly represented in the Battle of Coders match as a wicket-keeper, showcasing teamwork, focus, and sportsmanship.",
     images: [
-      "assert/2.jpg",
-      "assert/3.jpg",
-      "assert/4.jpg"
+      "asserts/2.jpg",
+      "asserts/3.jpg",
+      "asserts/4.jpg"
     ]
   },
   {
